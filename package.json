@@ -13,7 +13,8 @@
   "keywords": [
     "karma-plugin",
     "karma-preprocessor",
-    "amdwrap"
+    "amdwrap",
+    "amd-wrap"
   ],
   "author": "davetayls <dave@the-taylors.org>",
   "license": "ISC",
