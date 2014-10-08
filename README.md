@@ -25,6 +25,21 @@ module.exports = function(config){
 };
 ```
 
+### Excluding files
+
+You can exclude particular files from being wrapped by supplying an `exclude`
+function in the config:
+
+```javascript
+amdwrapPreprocessor: {
+  exclude: function(file){
+    // return true to exclude
+  }
+}
+```
+
+The function is passed the karma `file` object.
+
 ## Example
 
 With the following source:
