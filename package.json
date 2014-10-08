@@ -1,0 +1,27 @@
+{
+  "name": "karma-amdwrap-preprocessor",
+  "version": "0.1.0",
+  "description": "Karma preprocessor running amdwrap on code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davetayls/karma-amdwrap-preprocessor.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor",
+    "amdwrap"
+  ],
+  "author": "davetayls <dave@the-taylors.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davetayls/karma-amdwrap-preprocessor/issues"
+  },
+  "homepage": "https://github.com/davetayls/karma-amdwrap-preprocessor",
+  "dependencies": {
+    "amd-wrap": "^1.1.0"
+  }
+}
